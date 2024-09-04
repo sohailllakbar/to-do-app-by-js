@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do AppList</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="parent-container">
+      <h1 class="heading">To Do AppList</h1>
+
+      <div class="parent-box">
+        <div class="main-box-1">
+          <form class="search-box">
+            <input
+              type="text"
+              name="search-bar"
+              id="search"
+              class="search"
+              placeholder="Type Your tasks"
+              type="submit"
+              required
+            />
+          </form>
+          <div class="btn-box">
+            <button class="add-button" type="submit">add task</button>
+          </div>
+          <ul class="main-ul-box"></ul>
+        </div>
+        <div class="main-box-2">
+          <div class="parent-mainbox-2">
+            <div class="box-2">
+              <h1 class="box2-heading">Pending tasks</h1>
+            </div>
+          </div>
+          <ul class="containing-box"></ul>
+        </div>
+        <div class="main-box-3">
+          <div class="parent-mainbox-3">
+            <div class="box-3">
+              <h1 class="box3-heading">Tasks Completed</h1>
+            </div>
+          </div>
+          <ul class="containing-box2"></ul>
+        </div>
+      </div>
+    </div>
+    <script src="first.js" defer></script>
+  </body>
+</html>

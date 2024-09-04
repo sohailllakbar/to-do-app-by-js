@@ -1,0 +1,372 @@
+* {
+  padding: 0%;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+/* media query for the heading --*/
+
+@media screen and (max-width: 575px) {
+  .heading {
+    padding-top: 25px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    font-family: Georgia;
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 770px) {
+  .heading {
+    padding-top: 25px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    font-family: Georgia;
+    font-size: 45px;
+  }
+}
+
+@media screen and (min-width: 772px) and (max-width: 1400px) {
+  .heading {
+    padding-top: 25px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    font-family: Georgia;
+    font-size: 60px;
+  }
+}
+
+.parent-container {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+.parent-box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+@media screen and (max-width: 700px) {
+  .parent-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+  }
+}
+
+@media screen and (min-width: 701px) and (max-width: 1400px) {
+  .parent-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .main-box-1 {
+    width: 100%;
+    height: 50vh;
+    background-color: rgba(77, 33, 197, 0.411);
+  }
+}
+
+@media screen and (min-width: 701px) and (max-width: 1400px) {
+  .main-box-1 {
+    width: 30%;
+    background-color: rgba(77, 33, 197, 0.411);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .main-box-2 {
+    width: 100%;
+    height: 50vh;
+    margin-top: 5px;
+
+    background-color: rgba(77, 33, 197, 0.411);
+  }
+}
+
+@media screen and (min-width: 701px) and (max-width: 1400px) {
+  .main-box-2 {
+    width: 30%;
+    background-color: rgba(33, 186, 197, 0.24);
+  }
+}
+
+.parent-mainbox-2 {
+  display: flex;
+  width: 100%;
+  height: 13vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-2 {
+  width: 70%;
+  height: 60px;
+  background-color: white;
+  padding-top: 12px;
+  border-radius: 22px;
+}
+
+.box2-heading {
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 700px) {
+  .main-box-3 {
+    width: 100%;
+    height: 50vh;
+    margin-top: 5px;
+
+    background-color: rgba(77, 33, 197, 0.411);
+  }
+}
+
+@media screen and (min-width: 701px) and (max-width: 1400px) {
+  .main-box-3 {
+    width: 30%;
+    background-color: rgba(197, 33, 33, 0.24);
+  }
+}
+
+.parent-mainbox-3 {
+  display: flex;
+  width: 100%;
+  height: 13vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-3 {
+  width: 70%;
+  height: 60px;
+  background-color: white;
+  padding-top: 12px;
+  border-radius: 22px;
+}
+
+.box3-heading {
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  font-size: 22px;
+}
+
+.search {
+  width: 300px;
+  height: 35px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  font-family: Arial, sans-serif;
+  color: #4f0fc5;
+  padding: 2px 0px 2px 15px;
+  border-radius: 15px;
+}
+
+.search:hover {
+  box-shadow: 1px 1px 10px white;
+}
+
+.add-button {
+  height: 35px;
+  width: 122px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  font-family: Arial, sans-serif;
+  border-radius: 15px;
+  box-shadow: 2px 2px 10px red;
+  cursor: pointer;
+  transition: all ease-in-out 0s;
+}
+
+.button:hover {
+  box-shadow: 2px 2px 18px 2px red;
+}
+
+.btn-box {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.main-ul-box {
+  width: 100%;
+  height: 66vh;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.main-ul {
+  width: 100%;
+  height: 22vh;
+  background-color: rgba(15, 2, 2, 0.459);
+
+  margin: auto;
+}
+
+.heading-div {
+  list-style: none;
+  display: block;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+  color: white;
+}
+
+.task-heading {
+  text-align: center;
+  font-family: Georgia;
+  font-size: 1.2rem;
+}
+
+.parent-btn {
+  width: 60%;
+  height: 13vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 12px;
+}
+
+.pending-btn {
+  height: 30px;
+  width: 100px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  font-family: Arial, sans-serif;
+  border-radius: 15px;
+  box-shadow: 2px 2px 10px red;
+  cursor: pointer;
+  transition: all ease-in-out 0s;
+}
+.pending-btn:hover {
+  box-shadow: 2px 2px 18px 2px red;
+}
+
+.complete-btn {
+  height: 30px;
+  width: 100px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  font-family: Arial, sans-serif;
+  border-radius: 15px;
+  box-shadow: 2px 2px 10px red;
+  cursor: pointer;
+  transition: all ease-in-out 0s;
+}
+
+.complete-btn:hover {
+  box-shadow: 2px 2px 18px 2px red;
+}
+
+.complete-div {
+  width: 80%;
+  margin-left: 33px;
+  margin-top: 22px;
+  height: 10vh;
+  background-color: red;
+  border-radius: 30%;
+}
+
+.complete-heading {
+  font-family: Georgia;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.task-heading {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  font-weight: 300;
+  text-transform: capitalize;
+  font-size: 43px;
+  padding-top: 14px;
+}
+
+.parent-btn {
+  width: 100%;
+  height: 9vh;
+}
+
+.pending-div {
+  width: 80%;
+  margin-left: 33px;
+  margin-top: 22px;
+  height: 10vh;
+  background-color: red;
+  border-radius: 30%;
+}
+
+.pending-heading {
+  font-family: Georgia;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.alert-div {
+  width: 300px;
+  height: 35px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  font-family: Arial, sans-serif;
+  border-radius: 15px;
+}
+
+.pending-list {
+  list-style: none;
+  width: 80%;
+  margin: auto;
+  height: 12vh;
+  background-color: rgba(245, 245, 245, 0.233);
+  margin-top: 10px;
+  text-transform: capitalize;
+  border-radius: 20px;
+}
+
+.pending-heading {
+  padding: 12px;
+}
+
+.complete-list {
+  list-style: none;
+  width: 80%;
+  margin: auto;
+  height: 12vh;
+  background-color: rgba(245, 245, 245, 0.233);
+  margin-top: 10px;
+  text-transform: capitalize;
+  border-radius: 20px;
+}
+
+.complete-heading {
+  padding: 12px;
+}
